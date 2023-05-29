@@ -4,7 +4,10 @@ import guru.springframework.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
+// Have this annotation if you want to pick up scans from other packages than the default package including class SfgDiApplication.
+// @ComponentScan(basePackages = {"guru.springframework.sfgdi"})
 @SpringBootApplication
 public class SfgDiApplication {
 
